@@ -1,0 +1,30 @@
+
+
+.loc {
+       
+    color: rgb(0, 255, 8);
+    }
+
+  
+    .bus {
+        animation: opacity 2s ease-in-out infinite;
+    opacity: 1;    
+    color: rgb(255, 222, 10);
+    }
+    @keyframes opacity {
+        0% {
+          opacity: 1;
+        }
+      
+        50% {
+          opacity: 0
+        }
+      
+        100% {
+          opacity: 1;
+        }
+      }
+    .fal {
+       
+    color: rgb(243, 10, 10);
+    }
