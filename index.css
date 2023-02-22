@@ -1,13 +1,31 @@
 
+.row {
+  
+  border: 3px solid rgb(rgb(37, 35, 35));
+
+  margin: 10px;
+
+}
+
+.col {
+  
+  border: 2px solid rgb(110, 107, 105);
+
+}
 
 .loc {
-       
+  background-color: rgb(110, 107, 105);
+  background-blend-mode: soft-light;
+  background-size: contain;    
     color: rgb(0, 255, 8);
-    }
+}
 
   
-    .bus {
-        animation: opacity 2s ease-in-out infinite;
+.btn-warning {
+  
+  background-color: rgb(110, 107, 105);     
+  animation: opacity 2s ease-in-out infinite;
+  -webkit-text-size-adjust: auto;
     opacity: 1;    
     color: rgb(255, 222, 10);
     }
@@ -23,8 +41,8 @@
         100% {
           opacity: 1;
         }
-      }
-    .fal {
-       
+}
+.fal {
+  background-color: rgb(23, 22, 22); 
     color: rgb(243, 10, 10);
     }
